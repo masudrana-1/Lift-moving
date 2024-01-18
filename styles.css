@@ -1,0 +1,85 @@
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+
+.liftContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container {
+    width: 400px;
+    height: 600px;
+    border: 1px solid rgba(16, 22, 26, 0.518);
+    position: relative;
+    background-color: rgb(219, 218, 218);
+    box-shadow: -7px -6px 5px 0px rgba(255, 255, 255, 0.425),
+        7px 6px 5px 0px rgba(88, 88, 88, 0.425);
+}
+
+.level {
+    height: 200px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+
+}
+
+#level2 {
+    box-shadow: inset -10px -9px 8px 0px rgba(255, 255, 255, 0.425),
+        inset 10px 9px 8px 0px rgba(88, 88, 88, 0.425);
+}
+
+#level1 {
+    box-shadow: inset -10px -9px 8px 0px rgba(255, 255, 255, 0.425),
+        inset 10px 9px 8px 0px rgba(88, 88, 88, 0.425);
+}
+
+#level0 {
+    box-shadow: inset -10px -9px 8px 0px rgba(255, 255, 255, 0.425),
+        inset 10px 9px 8px 0px rgba(88, 88, 88, 0.425);
+}
+
+
+.lift {
+    width: 100%;
+    height: 200px;
+    align-items: center;
+    background: linear-gradient(to right, rgba(52, 152, 219, 0.455), rgba(46, 204, 112, 0.455));
+    position: absolute;
+    bottom: 0;
+    transition: all 5s ease-out;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    box-shadow: -7px -6px 5px 0px rgba(255, 255, 255, 0.425),
+        7px 6px 5px 0px rgba(88, 88, 88, 0.425);
+}
+
+.lift-text {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Added styles for the buttons */
+.button {
+    position: fixed;
+    right: 200px;
+    font-size: 120px;
+    background: none;
+    /* text-decoration: dashed; */
+    border: none;
+}
+
+#upButton {
+    top: 500px;
+}
+
+#downButton {
+    top: 78px;
+}
