@@ -11,6 +11,6 @@ function moveLift(direction) {
     } else if (direction === 'down' && currentLevel > 0) {
         currentLevel--;
     }
-    lift.style.bottom = currentLevel * 203 + 'px';
+    lift.style.bottom = currentLevel * 233 + 'px';
     setTimeout(() => { moving = false; }, 5000);
 }
