@@ -7,20 +7,26 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- heading  -->
     <h1>Elevator Moving Assignment</h1>
+    <!-- lift container  -->
     <div class="liftContainer">
         <div id="container">
             <div id="level2" class="level">Level-2</div>
             <div id="level1" class="level">Level-1</div>
             <div id="level0" class="level">Ground Level</div>
+            <!-- lift  -->
             <div id="lift" class="lift">
                 <span class="lift-text">Elevator</span>
             </div>
         </div>
     </div>
+    <!-- button  -->
     <button id="upButton" class="button" onclick="moveLift('up')">↑</button>
     <button id="downButton" class="button" onclick="moveLift('down')">↓</button>
+    <!-- audio  -->
     <audio id="movingSound" src="/assets/elevator-dingwav-14913.mp3" preload="auto"></audio>
+    <!-- js file link  -->
     <script src="lift.js"></script>
 </body>
 
